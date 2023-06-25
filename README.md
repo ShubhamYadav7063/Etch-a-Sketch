@@ -1,4 +1,4 @@
 # Etch-a-Sketch
 Projects made while doing TheOdinProject
 
-Deployed Link()
+[Deployed here](https://shubhamyadav7063.github.io/Etch-a-Sketch/)
