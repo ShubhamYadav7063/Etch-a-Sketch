@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Etch-a-Sketch</h1>
+      </header>
+      <p class="rule" >Press <u>Mouse button</u> and starting playing</p>
+      <main class="main">
+        <div id="sketch-area"></div>
+
+        <section class="properties">
+          <input type="color" name="" id="color-wheel" value="#DB5757" />
+          <button id="color">Color Mode</button>
+          <button id="rainbow">Rainbow Mode</button>
+          <button id="erase">Eraser</button>
+          <button id="clear">Clear</button>
+
+          <div class="dimensions">
+            <label for="rangeInput" id="value">16x16</label>
+            <input
+              type="range"
+              name=""
+              id="range-input"
+              min="16"
+              max="60"
+              step="1"
+              value="16"
+            />
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      Copyright &#169;
+      <a href="https://github.com/ShubhamYadav7063" target="_blank"
+        >Shubham Yadav</a
+      >
+      <p class="conjunction">(In conjunction with TheOdinProject 2023)</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
